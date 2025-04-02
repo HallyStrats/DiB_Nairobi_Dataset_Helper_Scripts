@@ -1,8 +1,6 @@
 # Nairobi Motorcycle Transit Comparison
 
-This repository contains Python scripts for processing, analyzing, and visualizing data from a study comparing the performance of fuel and electric motorcycles in Nairobi's transit system. The dataset (not included in this initial push) comprises daily and trip-level data for three groups: baseline fuel motorcycles, control fuel motorcycles, and treatment electric motorcycles. The scripts clean the raw data, generate insightful visualizations, and produce summary reports.
-
-The dataset is publicly available on Mendeley Data (DOI: 10.17632/nv3rkn24zv.1).
+This repository contains Python scripts for processing, analyzing, and visualizing data from a study comparing the performance of fuel and electric motorcycles in Nairobi's transit system. The dataset is publicly available on Mendeley Data (DOI: 10.17632/nv3rkn24zv.1) and should be downloaded from there. Once downloaded, the dataset will be in the correct format and just needs to be placed in the appropriate directory for the scripts to function properly.
 
 ## Purpose
 
@@ -14,7 +12,7 @@ The scripts in this repository are designed to:
 
 ## Dataset Overview
 
-The expected dataset is structured as follows (you’ll need to provide these files in the specified directory for the scripts to work):
+The dataset should be downloaded from Mendeley Data and will include the following files:
 
 - **Daily Data**: Aggregated daily metrics for each motorcycle.
   - `baseline-fuel-motorcycle-daily-data.csv`
@@ -26,13 +24,13 @@ The expected dataset is structured as follows (you’ll need to provide these fi
   - `transition-control-fuel-motorcycle-trip-data.csv`
   - `transition-treatment-electric-motorcycle-trip-data.csv`
 
-These files should be placed in a directory named:
+These files will already be structured correctly upon download and should be placed in the following directory:
 
 ```
 Nairobi Motorcycle Transit Comparison Dataset Fuel vs. Electric Vehicle Performance Tracking (2023)
 ```
 
-with the following subdirectories:
+with the subdirectories:
 - `daily_data`
 - `trip_data`
 
@@ -106,12 +104,8 @@ After running the scripts, your repository will generate outputs in an `output` 
    ```bash
    pip install -r requirements.txt
    ```
-4. **Prepare the Dataset**:
-   Place the raw CSV files in the directory:
-   ```
-   Nairobi Motorcycle Transit Comparison Dataset Fuel vs. Electric Vehicle Performance Tracking (2023)
-   ```
-   Ensure the `daily_data` and `trip_data` subdirectories match the expected structure described above.
+4. **Download the Dataset**:
+   Download the dataset from Mendeley Data (DOI: 10.17632/nv3rkn24zv.1) and ensure it is placed in the correct directory structure as described above.
 
 ## Usage Instructions
 
