@@ -122,6 +122,14 @@ Run each script from the root directory of the repository. Ensure the dataset is
   python src/plot.py
   ```
   Creates PNG files in `output/figures/` subdirectories.
+  
+  Examples of generated plots:
+
+<p align="center">
+  <img src="example_plots/trips_by_time_of_day.png" alt="Trips by Time of Day" height="300"/>
+  <img src="example_plots/daily_distance_by_group.png" alt="Daily Distances Travelled" height="300"/>
+  <img src="example_plots/trip_distance_distribution_comparison.png" alt="Trip Distance Distribution Comparison" height="300"/>
+</p>
 
 - **Create Summary Reports**:
   ```bash
